@@ -5,7 +5,7 @@ import type { ReactNode } from "react"
 
 type RevealProps = {
   children: ReactNode
-  /** Stagger index — pass i to delay siblings. */
+  /** Stagger index - pass i to delay siblings. */
   delay?: number
   className?: string
   as?: "div" | "section" | "li" | "span" | "p" | "h2" | "h3"
@@ -14,7 +14,7 @@ type RevealProps = {
 /**
  * Scroll-triggered reveal. Fades + lifts into place when in view.
  * Fully disabled under prefers-reduced-motion (renders a plain node).
- * `once: true` keeps it cheap — no re-animating on scroll-back.
+ * `once: true` keeps it cheap - no re-animating on scroll-back.
  */
 export function Reveal({
   children,
@@ -32,7 +32,7 @@ export function Reveal({
       y: 0,
       transition: {
         duration: reduce ? 0 : 0.6,
-        ease: [0.16, 1, 0.3, 1], // easeOutExpo — calm, editorial
+        ease: [0.16, 1, 0.3, 1], // easeOutExpo - calm, editorial
         delay,
       },
     },

@@ -1,7 +1,7 @@
 import { siteConfig } from "@/content/content"
 
 /**
- * Minimal footer — wordmark, year, and the canonical source link.
+ * Minimal footer - wordmark, year, and the canonical source link.
  */
 export function Footer() {
   return (

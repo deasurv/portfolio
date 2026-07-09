@@ -153,7 +153,7 @@
   --accent-strong: oklch(0.8 0.16 250);
 }
 
-/* Smooth color transitions on theme switch — gated for reduced motion */
+/* Smooth color transitions on theme switch - gated for reduced motion */
 @layer base {
   html.theme-ready *,
   html.theme-ready *::before,
@@ -165,7 +165,7 @@
   }
 }
 
-/* Typographic helpers — display scale via fluid clamp */
+/* Typographic helpers - display scale via fluid clamp */
 @utility text-display {
   font-size: clamp(2.75rem, 9vw, 8.5rem);
   line-height: 0.92;
@@ -180,7 +180,7 @@
   font-weight: 500;
 }
 
-/* Respect reduced motion globally — disables smooth scroll & non-essential transitions */
+/* Respect reduced motion globally - disables smooth scroll & non-essential transitions */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

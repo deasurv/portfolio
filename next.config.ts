@@ -6,7 +6,7 @@ const withBundleAnalyzer = bundleAnalyzer({
 })
 
 const nextConfig: NextConfig = {
-  // Turbopack is the default bundler for dev & build in Next 16 — no flag needed.
+  // Turbopack is the default bundler for dev & build in Next 16 - no flag needed.
   // CWV-first defaults: tiny client bundle, fully static output, SVG-only (no image optimization domains).
   experimental: {
     serverActions: { bodySizeLimit: "1mb" },

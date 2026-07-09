@@ -6,7 +6,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { cn } from "@/lib/utils"
 
 /**
- * Sticky, hairline-bordered nav. Becomes more opaque after scrolling —
+ * Sticky, hairline-bordered nav. Becomes more opaque after scrolling -
  * a subtle, performance-friendly effect (no backdrop blur, paint-only).
  */
 export function Nav() {

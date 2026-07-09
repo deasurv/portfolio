@@ -48,7 +48,7 @@ function RoleCard({ job, index }: { job: ExperienceItem; index: number }) {
 }
 
 /**
- * Experience timeline — condensed roles with impact bullets.
+ * Experience timeline - condensed roles with impact bullets.
  * Reads like an editorial CV: company · role · period · location, then proof.
  */
 export function Experience() {

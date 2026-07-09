@@ -4,7 +4,7 @@ import { MagneticButton } from "@/components/magnetic-button"
 import { ArrowUpRight } from "lucide-react"
 
 /**
- * Contact CTA — one big sentence, one magnetic email button, two profile links.
+ * Contact CTA - one big sentence, one magnetic email button, two profile links.
  * The closer. Keep it confident and short.
  */
 export function Contact() {

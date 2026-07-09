@@ -49,7 +49,7 @@ function WorkRow({ item, index }: { item: WorkItem; index: number }) {
 }
 
 /**
- * Selected work — index-driven list, hairline-separated rows.
+ * Selected work - index-driven list, hairline-separated rows.
  * Hover grows an accent underline; the chevron nudges toward the link.
  */
 export function Work() {

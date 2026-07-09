@@ -17,7 +17,7 @@ type MagneticButtonProps = {
 }
 
 /**
- * CTA that gently pulls toward the cursor. Subtle by design — editorial, not game-y.
+ * CTA that gently pulls toward the cursor. Subtle by design - editorial, not game-y.
  * Uses spring physics for a natural return. Disabled under prefers-reduced-motion.
  */
 export function MagneticButton({

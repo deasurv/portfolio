@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — ${siteConfig.role}`,
-    template: `%s — ${siteConfig.name}`,
+    default: `${siteConfig.name} - ${siteConfig.role}`,
+    template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.tagline,
   keywords: [
@@ -38,13 +38,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
-    title: `${siteConfig.name} — ${siteConfig.role}`,
+    title: `${siteConfig.name} - ${siteConfig.role}`,
     description: siteConfig.tagline,
     siteName: siteConfig.name,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} — ${siteConfig.role}`,
+    title: `${siteConfig.name} - ${siteConfig.role}`,
     description: siteConfig.tagline,
   },
   robots: {
@@ -81,7 +81,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
-        {/* Structured data — describes the person to search engines and AI */}
+        {/* Structured data - describes the person to search engines and AI */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

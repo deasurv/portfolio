@@ -6,7 +6,7 @@ import { Experience } from "@/components/sections/experience"
 import { Contact } from "@/components/sections/contact"
 
 /**
- * Home — a single, scroll-told page. Server Component composing client islands.
+ * Home - a single, scroll-told page. Server Component composing client islands.
  * Order is intentional: hook (hero) → proof (work) → credibility (experience) → action (contact).
  */
 export default function Home() {

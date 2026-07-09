@@ -6,7 +6,7 @@ import { siteConfig, about } from "@/content/content"
 import { MagneticButton } from "@/components/magnetic-button"
 
 /**
- * Hero — the first 3 seconds. Huge wordmark, tight eyebrow, one-line value
+ * Hero - the first 3 seconds. Huge wordmark, tight eyebrow, one-line value
  * prop, and a single magnetic CTA. Staggered fade-up on mount.
  */
 export function Hero() {
@@ -45,7 +45,7 @@ export function Hero() {
           variants={item}
           className="text-eyebrow text-muted-foreground"
         >
-          {siteConfig.role} — {siteConfig.location}
+          {siteConfig.role} - {siteConfig.location}
         </motion.p>
 
         <motion.h1 variants={item} className="text-display text-foreground">

@@ -6,7 +6,7 @@ export const contentType = "image/png"
 export const alt = siteConfig.ogImageAlt
 
 /**
- * Dynamic OG image — Swiss editorial cover. Built at build time (static route).
+ * Dynamic OG image - Swiss editorial cover. Built at build time (static route).
  * Satori supports a subset of CSS (flexbox only, no grid).
  */
 export default async function OG() {
