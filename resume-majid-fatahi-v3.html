@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Majid Fatahi - Senior Front-end Developer</title>
+    <style>
+      :root {
+        --ink: #1a1a1a;
+        --muted: #555;
+        --accent: #2563a6;
+        --rule: #d8d8d8;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: var(--ink);
+        line-height: 1.45;
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 40px 36px;
+        font-size: 14px;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 30px;
+        letter-spacing: -0.4px;
+      }
+      header .title {
+        font-size: 16px;
+        color: var(--accent);
+        margin: 2px 0 8px;
+        font-weight: 600;
+      }
+      header .contact {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      header .contact a {
+        color: var(--accent);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      .summary {
+        margin: 16px 0 4px;
+        color: #333;
+      }
+      h2 {
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: var(--accent);
+        border-bottom: 2px solid var(--rule);
+        padding-bottom: 4px;
+        margin: 26px 0 12px;
+      }
+      .role {
+        margin-bottom: 18px;
+      }
+      .role-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .role-head .who {
+        font-weight: 700;
+        font-size: 15px;
+      }
+      .role-head .who.edu {
+        font-weight: 500;
+        font-size: 14px;
+      }
+      .role.edu-role {
+        margin-bottom: 4px;
+      }
+      .role-head .who a {
+        color: var(--accent);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      .role-head .when {
+        color: var(--muted);
+        font-size: 12.5px;
+        white-space: nowrap;
+      }
+      .role .sub {
+        color: var(--muted);
+        font-size: 13px;
+        margin: 1px 0 6px;
+      }
+      .role .stack {
+        color: var(--muted);
+        font-size: 12.5px;
+        margin: 2px 0 4px;
+      }
+      .role .stack strong {
+        color: var(--ink);
+      }
+      ul {
+        margin: 6px 0 0;
+        padding-left: 18px;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+      .two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px 24px;
+      }
+      .skills p {
+        margin: 4px 0;
+      }
+      .skills strong {
+        color: var(--ink);
+      }
+      @media print {
+        body {
+          padding: 0;
+          max-width: none;
+          font-size: 12px;
+        }
+        a {
+          color: inherit;
+        }
+        .role-head .who a {
+          color: var(--accent);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Majid Fatahi</h1>
+      <div class="title">Senior Front-end Developer</div>
+      <div class="contact">
+        <a href="tel:+989031958700">+98 903 195 8700</a> ·
+        <a href="mailto:deasurv@gmail.com">deasurv@gmail.com</a> ·
+        <a href="https://linkedin.com/in/majid-fatahi"
+          >linkedin.com/in/majid-fatahi</a
+        >
+        · Tehran, Iran
+      </div>
+    </header>
+
+    <p class="summary">
+      Senior Front-end Developer with 7+ years building high-performance,
+      type-safe web apps in React, Next.js, and TypeScript, now running across
+      15,000+ online stores. Strong in scalable component architecture, Core Web
+      Vitals optimization, and clean, well-tested code, with a sharp eye for
+      detail and UX.
+    </p>
+
+    <h2>Experience</h2>
+
+    <div class="role">
+      <div class="role-head">
+        <span class="who"
+          ><a
+            href="https://partnerz.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Partnerz</a
+          >
+          - React Developer / Front-end Team Lead</span
+        >
+        <span class="when">Dec 2023 – Present (2 yrs 7 mos)</span>
+      </div>
+      <div class="sub">United Arab Emirates, Dubai (Remote)</div>
+      <p class="stack">
+        <strong>Stack:</strong> TypeScript, React, Zustand, GraphQL, Apollo
+        Client, Vite, Vitest, Shopify Polaris, Django, Docker, GitLab CI/CD,
+        Claude Code, Cursor
+      </p>
+      <ul>
+        <li>
+          Led front-end development of a SaaS Shopify app for e-commerce
+          marketing campaigns and storefront widgets, scaled to
+          <strong>$100K+ MRR</strong> and
+          <strong>15,000+ active installs</strong>.
+        </li>
+        <li>
+          Architected a scalable front-end composed of decoupled feature modules
+          with a Zustand store-per-feature pattern, enabling 4 engineers to
+          build features in parallel with minimal conflicts.
+        </li>
+        <li>
+          Optimized Core Web Vitals with Lighthouse and Chrome DevTools,
+          reducing
+          <strong>CLS from 1.1 to 0.3 and LCP from 3s to 1.9s</strong>; migrated
+          CRA to Vite and added route-level code-splitting that cut the initial
+          bundle by <strong>~200KB (~10%)</strong>.
+        </li>
+        <li>
+          Introduced the team's front-end testing practice from zero to
+          <strong>1,000+ unit and integration tests</strong> with Vitest
+          (Jest-compatible) and React Testing Library.
+        </li>
+        <li>
+          Configured and maintained the Dockerized GitLab CI/CD stages (lint,
+          type-check, test, build) that gate every merge request, blocking
+          broken code from merging.
+        </li>
+        <li>
+          Created an agentic Claude Code workflow to scaffold, test, fix,
+          review, and open PRs for feature development, refactoring, and
+          maintenance across the Django and React codebase, shipping features up
+          to <strong>3x faster</strong>.
+        </li>
+      </ul>
+    </div>
+
+    <div class="role">
+      <div class="role-head">
+        <span class="who"
+          ><a href="https://kamva.ir" target="_blank" rel="noopener noreferrer"
+            >Kamva</a
+          >
+          - React Developer / Front-end Team Lead</span
+        >
+        <span class="when">Mar 2023 – Dec 2023 (10 mos)</span>
+      </div>
+      <div class="sub">Iran, Tehran (Remote)</div>
+      <p class="stack">
+        <strong>Stack:</strong> TypeScript, Next.js, React, React Query, React
+        Context, React Hook Form, Yup, Material UI, Leaflet, Docker, PWA
+      </p>
+      <ul>
+        <li>
+          Managed and mentored <strong>5 front-end developers</strong> across
+          two products (a social-assistance platform and a Calendly-style
+          scheduling app), owning architecture and conventions plus hiring and
+          onboarding.
+        </li>
+        <li>
+          Built a Next.js PWA with native Android and iOS builds, featuring
+          real-time chat and live geolocation tracking on interactive Leaflet
+          maps, used by <strong>5,000+ users</strong>.
+        </li>
+        <li>
+          Migrated a Redux codebase to a lighter React Query & React Context
+          architecture, cutting boilerplate and standardizing data-fetching and
+          caching over REST API across both products.
+        </li>
+        <li>
+          Implemented type-safe forms with schema-based validation (React Hook
+          Form & Yup), catching invalid input at the UI and standardizing error
+          handling across flows.
+        </li>
+        <li>
+          Refactored a 10K-line legacy codebase into container/presentational
+          components and a shared custom-hooks layer (cutting hundreds of lines
+          of duplication), and migrated it from JavaScript to TypeScript.
+        </li>
+      </ul>
+    </div>
+
+    <div class="role">
+      <div class="role-head">
+        <span class="who"
+          ><a
+            href="https://paziresh24.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Paziresh24</a
+          >
+          - Front-end Developer</span
+        >
+        <span class="when">Dec 2017 – Nov 2020 (3 yrs)</span>
+      </div>
+      <div class="sub">Iran, Yazd</div>
+      <p class="stack">
+        <strong>Stack:</strong> Vue, Nuxt 2 (SSR), JavaScript, Vuex, REST API,
+        Axios, Sass/CSS, Webpack
+      </p>
+      <ul>
+        <li>
+          Led the migration of paziresh24.com from a legacy MPA to a
+          server-side-rendered (SSR) Vue/Nuxt 2 app, delivering its homepage and
+          doctor-profile pages.
+        </li>
+        <li>
+          Built a real-time patient–doctor consultation chat client
+          (<strong>1,000+</strong> users at launch) in vanilla JS, designing a
+          prototype-based component architecture that enabled declarative UI
+          updates without a framework.
+        </li>
+        <li>
+          Designed and built from scratch a custom mobile-first weekly
+          DatePicker to replace a widely-used third-party library, purpose-built
+          for the doctor-appointment booking flow.
+        </li>
+      </ul>
+    </div>
+
+    <h2>Freelance Projects</h2>
+
+    <div class="role">
+      <div class="role-head">
+        <span class="who">PallStore - React Developer</span>
+        <span class="when">Sep 2022 – Feb 2023 (6 mos)</span>
+      </div>
+      <p class="stack">
+        <strong>Stack:</strong> TypeScript, React, Next.js, styled-components,
+        Swiper, ESLint, Prettier, Husky
+      </p>
+      <ul>
+        <li>
+          Built a responsive, SSR e-commerce storefront in Next.js and React,
+          spanning <strong>25+</strong> pages plus a <strong>15+</strong> page
+          account area.
+        </li>
+        <li>
+          Designed a reusable library of <strong>~130</strong> components
+          organized into feature modules, with full light/dark theming via a
+          centralized design-token system and a responsive xs–xl breakpoint
+          scale.
+        </li>
+        <li>
+          Shipped a multi-step checkout (cart, address, payment, confirmation)
+          plus a full account area (orders, wishlist, wallet, support tickets,
+          and more).
+        </li>
+        <li>
+          Partnered with designers on Figma handoffs and a shared component
+          library; ran design-QA reviews that fixed layout, accessibility
+          (A11y/WCAG), and UX issues before release.
+        </li>
+      </ul>
+    </div>
+
+    <div class="role">
+      <div class="role-head">
+        <span class="who">Incorp - Vue Developer</span>
+        <span class="when">Dec 2020 – Aug 2022 (1 yr 9 mos)</span>
+      </div>
+      <p class="stack">
+        <strong>Stack:</strong> Vue, Nuxt 2 (SSR), TypeScript, Tailwind CSS,
+        Vuex, REST API, Lighthouse, Chrome DevTools
+      </p>
+      <ul>
+        <li>
+          Delivered a production exhibition-directory web app (public storefront
+          plus a management admin panel) as the front-end developer, working
+          with 2 backend engineers over REST API.
+        </li>
+        <li>
+          Implemented an SSR storefront for SEO with server-rendered meta tags
+          and structured data, plus search and filtering across exhibition
+          listings by industry, date, and location.
+        </li>
+        <li>
+          Raised the storefront's Lighthouse performance score
+          <strong>from 35 to 80</strong> via route-based lazy loading,
+          code-splitting, lazy hydration, asset preloading, and image
+          optimization.
+        </li>
+        <li>
+          Upgraded <strong>4</strong> deprecated and vulnerable dependencies
+          flagged by npm audit and cut bundle size by <strong>~150KB</strong> by
+          replacing heavy libraries with lighter, maintained alternatives.
+        </li>
+      </ul>
+    </div>
+
+    <h2>Education</h2>
+    <div class="role edu-role">
+      <div class="role-head">
+        <span class="who edu"
+          >Imam Javad University of Yazd - B.Eng., Software Engineering</span
+        >
+        <span class="when">Sep 2017 – May 2019</span>
+      </div>
+    </div>
+    <div class="role edu-role">
+      <div class="role-head">
+        <span class="who edu"
+          >Mohajer Technical University of Isfahan - A.Eng., Software
+          Engineering</span
+        >
+        <span class="when">Sep 2015 – May 2017</span>
+      </div>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="skills">
+      <p>
+        <strong>Core:</strong> TypeScript, JavaScript (ES2020+), React, Next.js,
+        Hooks, Context API, Vue, Leaflet / Maps
+      </p>
+      <p>
+        <strong>State Management:</strong> Redux, Zustand, React Query, Context
+        API, Vuex
+      </p>
+      <p>
+        <strong>Styling & UI:</strong> HTML5, CSS3, Sass/SCSS, Tailwind CSS,
+        styled-components, Responsive / Mobile-first, Material UI, Shopify
+        Polaris
+      </p>
+      <p>
+        <strong>Testing & Tooling:</strong> Jest / Vitest, React Testing
+        Library, Vite, Webpack, ESLint, Git, Docker, GitLab CI/CD
+      </p>
+      <p>
+        <strong>Performance & Quality:</strong> Core Web Vitals, Lighthouse,
+        Chrome DevTools, WPO, PWA, Accessibility (A11y/WCAG)
+      </p>
+      <p>
+        <strong>APIs & Data:</strong> REST API, Axios, GraphQL, Apollo Client,
+        React Hook Form, Yup, Zod
+      </p>
+    </div>
+
+    <h2>Languages</h2>
+    <div class="two-col">
+      <div>English (Professional working proficiency)</div>
+      <div>Persian (Native)</div>
+    </div>
+  </body>
+</html>

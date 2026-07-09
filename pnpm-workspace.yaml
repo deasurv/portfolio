@@ -1,3 +1,7 @@
-ignoredBuiltDependencies:
-  - sharp
-  - unrs-resolver
+# pnpm workspace config — single-package repo (kept for pnpm v11 settings)
+allowBuilds:
+  # simple-git-hooks needs to register hooks on install
+  simple-git-hooks: true
+  # sharp/unrs-resolver ship prebuilt binaries; skip their build scripts
+  sharp: false
+  unrs-resolver: false
