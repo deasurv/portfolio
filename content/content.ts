@@ -14,7 +14,7 @@ export const siteConfig = {
   // Where the site is deployed. Used for canonical URL, sitemap, OG.
   url: "https://majid-fatahi.vercel.app",
   ogImageAlt: "Majid Fatahi - Senior Frontend Developer",
-  location: "Tehran, Iran · Remote",
+  location: "Tehran, Iran",
   phone: "+98 903 195 8700",
   // Single accent color - Swiss editorial restraint. Drives focus rings, links, hover states.
   // oklch keeps it perceptually uniform across light/dark. Aligned with resume accent #2563a6.
