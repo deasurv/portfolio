@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { siteConfig } from "@/content/content"
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({
   variable: "--font-sans",
@@ -81,6 +82,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Analytics />
         {/* Structured data - describes the person to search engines and AI */}
         <script
           type="application/ld+json"
